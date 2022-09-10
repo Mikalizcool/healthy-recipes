@@ -10,6 +10,7 @@
 	/* For mobile phones: */
 	h1 {
 	  font-size: 4em;
+	  font-family: 'Combo', cursive;
 	}
 
 	h2 {
@@ -17,15 +18,12 @@
 	  justify-content: center;
 	}
 
-	img {
-	  width:80%;
-	  border-radius: 30px;
-	}
 
 	li {
 	  display:  flex;
 	  justify-content:  center;
 	  padding-bottom: 5px;
+	  text-align: center;
 	}
 
 	ul {
@@ -39,6 +37,7 @@
 	p {
 	  display: flex;
 	  justify-content: center;
+	  text-align: center;
 	}
 	button{
 	  font-size: 15px;
@@ -76,6 +75,14 @@
 	}
 	.list-item{
 		font-size: 2em;
+	}
+	.landing-page-img{
+	  width:80%;
+	  border-radius: 30px;
+	}
+	.food-img{
+	  width:80%;
+	  border-radius: 30px;
 	}
 }
 @media only screen and (min-width: 768px) {
@@ -83,6 +90,7 @@
 	
 	h1 {
 	  font-size: 4em;
+	  font-family: 'Combo', cursive;
 	}
 
 	h2 {
@@ -90,15 +98,13 @@
 	  justify-content: center;
 	}
 
-	img {
-	  width:80%;
-	  border-radius: 30px;
-	}
+	
 
 	li {
 	  display:  flex;
 	  justify-content:  center;
 	  padding-bottom: 5px;
+	  text-align: center;
 	}
 
 	ul {
@@ -112,6 +118,7 @@
 	p {
 	  display: flex;
 	  justify-content: center;
+	  text-align: center;
 	}
 	button{
 	  font-size: 15px;
@@ -150,6 +157,12 @@
 	.list-item{
 		font-size: 2em;
 	}
-	
-	
+	.landing-page-img{
+	  width:80%;
+	  border-radius: 30px;
+	}
+	.food-img{
+	  width:40%;
+	  border-radius: 30px;
+	}
 }
