@@ -6,38 +6,150 @@
   animation-fill-mode: forwards;
   color: orange;
 }
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	h1 {
+	  font-size: 4em;
+	}
 
-h1 {
-  display: flex;
-  justify-content: center;
+	h2 {
+	  display:  flex;
+	  justify-content: center;
+	}
+
+	img {
+	  width:80%;
+	  border-radius: 30px;
+	}
+
+	li {
+	  display:  flex;
+	  justify-content:  center;
+	  padding-bottom: 5px;
+	}
+
+	ul {
+	  padding-left: 0;
+	}
+
+	a {
+	  text-decoration: none;
+	}
+
+	p {
+	  display: flex;
+	  justify-content: center;
+	}
+	button{
+	  font-size: 15px;
+	  display: inline-block;
+	  padding: 10px 25px;
+	  cursor: pointer;
+	  text-align: center;
+	  text-decoration: none;
+	  outline: none;
+	  color: #474747;
+	  background-color: white;
+	  border: 1px solid #474747;
+	  border-radius: 30px;
+	  margin:4px;
+	}
+	.button:hover {border: 1px solid orange;}
+
+	.button:active {
+	  transform: translateY(4px);
+	}
+	.flex-container-center{
+		display:flex;
+		justify-content:center;
+	}
+	.flex-container{
+		display:flex;
+		justify-content:center;
+		text-align: center;
+	}
+	.flex-container-image{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		
+	}
+	.list-item{
+		font-size: 2em;
+	}
 }
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+	
+	h1 {
+	  font-size: 4em;
+	}
 
-h2 {
-  display:  flex;
-  justify-content: center;
-}
+	h2 {
+	  display:  flex;
+	  justify-content: center;
+	}
 
-img {
-  display:  block;
-  margin-left:  auto;
-  margin-right: auto;
-}
+	img {
+	  width:80%;
+	  border-radius: 30px;
+	}
 
-li {
-  display:  flex;
-  justify-content:  center;
-  padding-bottom: 5px;
-}
+	li {
+	  display:  flex;
+	  justify-content:  center;
+	  padding-bottom: 5px;
+	}
 
-ul {
-  padding-left: 0;
-}
+	ul {
+	  padding-left: 0;
+	}
 
-a {
-  text-decoration: none;
-}
+	a {
+	  text-decoration: none;
+	}
 
-p {
-  display: flex;
-  justify-content: center;
+	p {
+	  display: flex;
+	  justify-content: center;
+	}
+	button{
+	  font-size: 15px;
+	  display: inline-block;
+	  padding: 10px 25px;
+	  cursor: pointer;
+	  text-align: center;
+	  text-decoration: none;
+	  outline: none;
+	  color: #474747;
+	  background-color: white;
+	  border: 1px solid #474747;
+	  border-radius: 30px;
+	  margin:4px;
+	}
+	.button:hover {border: 1px solid orange;}
+
+	.button:active {
+	  transform: translateY(4px);
+	}
+	.flex-container-center{
+		display:flex;
+		justify-content:center;
+	}
+	.flex-container{
+		display:flex;
+		justify-content:center;
+		text-align: center;
+	}
+	.flex-container-image{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		
+	}
+	.list-item{
+		font-size: 2em;
+	}
+	
+	
 }
