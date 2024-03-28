@@ -142,11 +142,15 @@
 	  outline: none;
 	  color: #474747;
 	  background-color: white;
-	  border: 1px solid #474747;
-	  border-radius: 30px;
 	  margin:4px;
+	  border: 0px;
 	}
-	.button:hover {border: 1px solid orange;}
+	.button:hover {
+		border: 1px solid rgb(248, 189, 80);
+		border-radius: 30px;
+		background-color: rgb(248, 189, 80);
+		color: white;
+	}
 
 	.button:active {
 	  transform: translateY(4px);
