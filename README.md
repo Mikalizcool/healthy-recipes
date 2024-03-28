@@ -1,2 +1,2 @@
-# odin-recipes
-A recipe website.
+# Healthy Recipes
+A place where I organize healthy recipes I've tried.
