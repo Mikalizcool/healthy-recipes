@@ -4,82 +4,97 @@
   animation-iteration-count: 1;
   font-family: montserrat;
   animation-fill-mode: forwards;
-  color: orange;
+  color: rgb(238, 172, 50);
 }
-@media only screen and (max-width: 768px) {
-	/* For mobile phones: */
-	h1 {
-	  font-size: 4em;
-	  font-family: 'Combo', cursive;
-	}
+h1 {
+	font-size: 4em;
+	font-family: 'Combo', cursive;
+  }
 
-	h2 {
-	  display:  flex;
-	  justify-content: center;
-	}
+  h2 {
+	text-align: left;
+	margin-top: 40px;
+  }
+  
 
+  li {
+	padding-bottom: 5px;
+	text-align: left;
+  }
 
-	li {
-	  display:  flex;
-	  justify-content:  center;
-	  padding-bottom: 5px;
-	  text-align: center;
-	}
+  ul {
+	margin: 0;
+	padding: 20px;
+  }
 
-	ul {
-	  padding-left: 0;
-	}
-	
-	ol{
-		padding-left: 0;
-	}
-	
-	a {
-	  text-decoration: none;
-	}
+  ol{
+	  margin: 0;
+	  padding: 20px;
+  }
 
-	p {
-	  display: flex;
-	  justify-content: center;
-	  text-align: center;
-	}
-	button{
-	  font-size: 15px;
-	  display: inline-block;
-	  padding: 10px 25px;
-	  cursor: pointer;
-	  text-align: center;
-	  text-decoration: none;
-	  outline: none;
-	  color: #474747;
-	  background-color: white;
-	  border: 1px solid #474747;
+  a {
+	text-decoration: none;
+  }
+
+  p {
+	margin: 0;
+  }
+  button{
+	font-size: 15px;
+	display: inline-block;
+	padding: 10px 25px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #474747;
+	background-color: white;
+	margin:4px;
+	border: 0px;
+  }
+  .button:hover {
+	  border: 1px solid rgb(248, 189, 80);
 	  border-radius: 30px;
-	  margin:4px;
-	}
-	.button:hover {border: 1px solid orange;}
+	  background-color: rgb(248, 189, 80);
+	  color: white;
+  }
 
-	.button:active {
-	  transform: translateY(4px);
-	}
-	.flex-container-center{
-		display:flex;
-		justify-content:center;
-	}
-	.flex-container{
-		display:flex;
-		justify-content:center;
-		text-align: center;
-	}
-	.flex-container-image{
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		
-	}
-	.list-item{
-		font-size: 2em;
-	}
+  .button:active {
+	transform: translateY(4px);
+  }
+  .flex-container-center{
+	  display:flex;
+	  justify-content:center;
+	  flex-direction: column;
+	  align-items: center;
+  }
+  .flex-container{
+	display:flex;
+	justify-content:center;
+	flex-direction: column;
+	align-items: left;
+	padding: 0 30px 0 30px;
+  }
+  .flex-container-image{
+	  display:flex;
+	  justify-content:center;
+	  align-items:center;
+	  
+  }
+  .list-item{
+	  font-size: 2em;
+  }
+  .landing-page-img{
+	width:80%;
+	border-radius: 30px;
+  }
+  .food-img{
+	width:500px;;
+	border-radius: 30px;
+  }
+@media (max-width: 800px) {
+	/* For mobile phones: */
+	
 	.landing-page-img{
 	  width:80%;
 	  border-radius: 30px;
@@ -90,99 +105,6 @@
 	}
 	.food-img-2{
 	  width:60%;
-	  border-radius: 30px;
-	}
-}
-@media only screen and (min-width: 768px) {
-	/* For desktop: */
-	
-	h1 {
-	  font-size: 4em;
-	  font-family: 'Combo', cursive;
-	}
-
-	h2 {
-	  display:  flex;
-	  justify-content: center;
-	}
-
-	
-
-	li {
-	  display:  flex;
-	  justify-content:  center;
-	  padding-bottom: 5px;
-	  text-align: center;
-	}
-
-	ul {
-	  padding-left: 0;
-	}
-
-	ol{
-		padding-left: 0;
-	}
-
-	a {
-	  text-decoration: none;
-	}
-
-	p {
-	  display: flex;
-	  justify-content: center;
-	  text-align: center;
-	}
-	button{
-	  font-size: 15px;
-	  display: inline-block;
-	  padding: 10px 25px;
-	  cursor: pointer;
-	  text-align: center;
-	  text-decoration: none;
-	  outline: none;
-	  color: #474747;
-	  background-color: white;
-	  margin:4px;
-	  border: 0px;
-	}
-	.button:hover {
-		border: 1px solid rgb(248, 189, 80);
-		border-radius: 30px;
-		background-color: rgb(248, 189, 80);
-		color: white;
-	}
-
-	.button:active {
-	  transform: translateY(4px);
-	}
-	.flex-container-center{
-		display:flex;
-		justify-content:center;
-	}
-	.flex-container{
-		display:flex;
-		justify-content:center;
-		text-align: center;
-	}
-	.flex-container-image{
-		display:flex;
-		justify-content:center;
-		align-items:center;
-		
-	}
-	.list-item{
-		font-size: 2em;
-	}
-	.landing-page-img{
-	  width:80%;
-	  border-radius: 30px;
-	}
-	.food-img{
-	  width:40%;
-	  border-radius: 30px;
-	}
-	.food-img-2{
-	  width:30%;
 	  border-radius: 30px;
 	}
 }
